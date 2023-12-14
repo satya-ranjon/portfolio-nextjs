@@ -1,3 +1,4 @@
+"use client";
 import avatar1 from "@/assets/avatar1.jpeg";
 import avatarShapes from "@/assets/avatar-shapes.svg";
 import avatarShapes2 from "@/assets/cornerstone-patterns-right.svg";

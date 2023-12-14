@@ -13,29 +13,29 @@ export default function Home() {
     <>
       <Navbar />
       <SectionContainer>
-        <Element name="heroSection" className="element">
-          <HeroSection />
-        </Element>
+        {/* <Element name="heroSection" className="element"> */}
+        <HeroSection />
+        {/* </Element> */}
       </SectionContainer>
       <SectionContainer>
-        <Element name="design" className="element">
-          <DesignEngineering />
-        </Element>
+        {/* <Element name="design" className="element"> */}
+        <DesignEngineering />
+        {/* </Element> */}
       </SectionContainer>
       <SectionContainer color="bg-colorTwo">
-        <Element name="myself" className="element">
-          <MySelf />
-        </Element>
+        {/* <Element name="myself" className="element"> */}
+        <MySelf />
+        {/* </Element> */}
       </SectionContainer>
       <SectionContainer>
-        <Element name="project" className="element">
-          <Projects />
-        </Element>
+        {/* <Element name="project" className="element"> */}
+        <Projects />
+        {/* </Element> */}
       </SectionContainer>
       <SectionContainer>
-        <Element name="contact" className="element">
-          <Contact />
-        </Element>
+        {/* <Element name="contact" className="element"> */}
+        <Contact />
+        {/* </Element> */}
       </SectionContainer>
       <Footer />
     </>
