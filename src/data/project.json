@@ -1,0 +1,45 @@
+[
+  {
+    "_id": "1",
+    "name": "Daily Routine",
+    "description": "Daily Routine is a modern project management website. With a sleek and intuitive interface, users can easily create, update, invite, and delete their projects. Daily Routine also features a secure protected route in the front end, ensuring user data remains safe and secure.",
+    "tools": [
+      "Javascript",
+      "React",
+      "Redux Toolkit",
+      "Tailwind",
+      "Framer Motion",
+      "Cloudinary"
+    ],
+    "img": "https://i.ibb.co/VwMMcRf/1-Untitled-design-removebg-preview-2-transformed.png",
+    "code": "https://github.com/satya-ranjon/project_management_frontend",
+    "live": "https://daily-routine-tool.netlify.app/",
+    "bgColor": "yellow",
+    "textColor": "text-violet-900",
+    "nameText": "text-violet-950"
+  },
+  {
+    "_id": "2",
+    "name": "EventBD",
+    "description": "EventBD is a dynamic social event management platform designed to streamline the planning and coordination of events. Whether it's a birthday party, corporate gathering, or community meetup, EventBD provides a centralized hub for event organizers and participants.",
+    "tools": ["Javascript", "React", "Context API", "Tailwind", "Firebase"],
+    "img": "https://i.ibb.co/r5B8dtR/Untitled-design-4-removebg-preview-transformed.png",
+    "code": "https://github.com/satya-ranjon/eventbd",
+    "live": "https://eventbd-499fc.web.app/",
+    "bgColor": "#2e1065",
+    "textColor": "#ede9fe",
+    "nameText": "#c7d2fe"
+  },
+  {
+    "_id": "3",
+    "name": "SKT-Beauty",
+    "description": "SKT-Beauty is a robust and user-friendly Beauty product management system designed to streamline the user experience for both healthcare professionals and patients. This system leverages Firebase Authentication for secure login and user profile management, ensuring data integrity and confidentiality.",
+    "tools": ["Javascript", "React", "Context API", "Tailwind", "Firebase"],
+    "img": "https://i.ibb.co/s1wXL9w/Untitled-design-2-removebg-preview-transformed.png",
+    "code": "https://github.com/satya-ranjon/sktbeauty",
+    "live": "https://sktbeauty-42a1e.web.app/",
+    "bgColor": "#ede9fe",
+    "textColor": "#4c1d95",
+    "nameText": "#2e1065"
+  }
+]

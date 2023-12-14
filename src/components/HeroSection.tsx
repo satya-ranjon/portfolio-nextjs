@@ -9,6 +9,7 @@ import Image from "next/image";
 import useDisplay from "@/hooks/useDisplay";
 import { useEffect, useRef, useState } from "react";
 import { animateScroll, Events, scrollSpy } from "react-scroll";
+import { GrDownload } from "react-icons/gr";
 
 const HeroSection = () => {
   const [width] = useDisplay();
@@ -24,6 +25,14 @@ const HeroSection = () => {
             Passionate learner and developer, always exploring new technologies
             and seeking opportunities to enhance my skills
           </h4>
+          <a
+            href="./Satya_Ranjon_Sharma.pdf"
+            download
+            target="_blank"
+            className=" px-5 py-2 cursor-pointer bg-colorTwo text-colorThree font-semibold rounded-sm mt-5 z-50 w-fit  flex justify-start gap-2 items-center">
+            <span className=" text-base">Download CV</span>
+            <GrDownload className="text-lg" />
+          </a>
         </div>
         <div className="bg-colorTwo py-10 flex-col flex justify-center items-center relative">
           <Image
@@ -55,14 +64,14 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      <div className="hidden md:block w-full relative -z-10">
+      <div className="hidden md:block w-full">
         <div className="-z-50 absolute top-0 left-0 right-0 bottom-0 ">
           <div className=" h-full w-full flex flex-col md:flex-row justify-start">
             <div className=" w-full  md:w-9/12 lg:w-8/12 bg-colorOne"></div>
             <div className=" w-full md:w-3/12 lg:w-4/12  bg-colorTwo"></div>
           </div>
         </div>
-        <div className=" container mx-auto px-20 2xl:px-24  z-50 py-36 lg:py-48 lg:pt-64 w-full relative">
+        <div className="  container mx-auto px-20 2xl:px-24  z-50 py-36 lg:py-48 lg:pt-64 w-full relative">
           <div className=" flex justify-between ">
             <div className=" w-8/12">
               <h1 className="text-4xl lg:text-5xl xl:text-7xl 2xl:text-8xl max-w-xs lg:max-w-sm xl:max-w-xl font-bold text-colorTwo">
@@ -72,6 +81,14 @@ const HeroSection = () => {
                 Passionate learner and developer, always exploring new
                 technologies and seeking opportunities to enhance my skills
               </h3>
+              <a
+                href="./Satya_Ranjon_Sharma.pdf"
+                download
+                target="_blank"
+                className=" px-5 py-2 cursor-pointer bg-colorTwo text-colorThree font-semibold rounded-sm mt-5 z-50 w-fit  flex justify-start gap-2 items-center">
+                <span className=" text-base">Download CV</span>
+                <GrDownload className="text-lg" />
+              </a>
             </div>
             <div className=" w-4/12"></div>
           </div>

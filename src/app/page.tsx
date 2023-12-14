@@ -12,9 +12,9 @@ export default function Home() {
     <>
       <Navbar />
       <SectionContainer>
-        <Element name="heroSection" className="element">
-          <HeroSection />
-        </Element>
+        {/* <Element name="heroSection" className="element"> */}
+        <HeroSection />
+        {/* </Element> */}
       </SectionContainer>
       <SectionContainer>
         <Element name="design" className="element">
