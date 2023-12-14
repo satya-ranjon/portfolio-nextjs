@@ -71,7 +71,7 @@ const HeroSection = () => {
             <div className=" w-full md:w-3/12 lg:w-4/12  bg-colorTwo"></div>
           </div>
         </div>
-        <div className="  container mx-auto px-20 2xl:px-24  z-50 py-36 lg:py-48 lg:pt-64 w-full relative">
+        <div className="  container mx-auto px-20 2xl:px-24 py-36 lg:py-48 lg:pt-64 w-full relative">
           <div className=" flex justify-between ">
             <div className=" w-8/12">
               <h1 className="text-4xl lg:text-5xl xl:text-7xl 2xl:text-8xl max-w-xs lg:max-w-sm xl:max-w-xl font-bold text-colorTwo">

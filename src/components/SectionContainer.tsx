@@ -37,6 +37,13 @@ const SectionContainer = ({ color = "bg-colorThree", children }) => {
             offset={50}
             duration={500}
             className={`cursor-pointer rotate-45 w-3  h-3 block ${color}`}></Link>
+          <Link
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className={`cursor-pointer rotate-45 w-3  h-3 block ${color}`}></Link>
         </div>
       </div>
     </div>

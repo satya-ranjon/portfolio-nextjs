@@ -6,15 +6,17 @@ import SectionContainer from "@/components/SectionContainer";
 import { Element } from "react-scroll";
 import MySelf from "@/components/MySelf";
 import Projects from "@/components/Projects";
+import Footer from "@/components/Footer";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
     <>
       <Navbar />
       <SectionContainer>
-        {/* <Element name="heroSection" className="element"> */}
-        <HeroSection />
-        {/* </Element> */}
+        <Element name="heroSection" className="element">
+          <HeroSection />
+        </Element>
       </SectionContainer>
       <SectionContainer>
         <Element name="design" className="element">
@@ -32,10 +34,11 @@ export default function Home() {
         </Element>
       </SectionContainer>
       <SectionContainer>
-        <Element name="test2" className="element">
-          <div className=" h-screen  w-full"></div>
+        <Element name="contact" className="element">
+          <Contact />
         </Element>
       </SectionContainer>
+      <Footer />
     </>
   );
 }

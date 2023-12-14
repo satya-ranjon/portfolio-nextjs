@@ -23,7 +23,6 @@ const Projects = () => {
 
       {projects.map((item, index) => {
         const reverse = !(index % 2 === 0);
-        console.log(reverse);
         return (
           <div
             key={item._id}
@@ -31,11 +30,11 @@ const Projects = () => {
             <div className="container mx-auto px-10 md:px-20 2xl:px-24  z-50  py-20  w-full ">
               <div
                 className={`flex ${
-                  reverse && "flex-row-reverse"
-                } justify-between  items-start gap-20`}>
+                  reverse && "md:flex-row-reverse"
+                } flex-col-reverse md:flex-row justify-between  items-start gap-10 lg:gap-16 xl:gap-20`}>
                 <div className="w-full">
                   <h1
-                    className={`font-bold text-5xl ${item.nameText}`}
+                    className={`font-bold text-2xl md:text-4xl lg:text-5xl ${item.nameText}`}
                     style={{ color: item.nameText }}>
                     {item.name}
                   </h1>
@@ -43,7 +42,7 @@ const Projects = () => {
                     {item.description}
                   </h5>
                   <h1
-                    className={`font-bold text-xl mt-5 ${item.nameText}`}
+                    className={`font-bold text-lg md:text-xl mt-5 ${item.nameText}`}
                     style={{ color: item.nameText }}>
                     DEVELOPMENT TOOLS
                   </h1>

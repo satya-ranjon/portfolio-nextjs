@@ -15,8 +15,8 @@
     "code": "https://github.com/satya-ranjon/project_management_frontend",
     "live": "https://daily-routine-tool.netlify.app/",
     "bgColor": "yellow",
-    "textColor": "text-violet-900",
-    "nameText": "text-violet-950"
+    "textColor": "#000000",
+    "nameText": "#000000"
   },
   {
     "_id": "2",
@@ -41,5 +41,17 @@
     "bgColor": "#ede9fe",
     "textColor": "#4c1d95",
     "nameText": "#2e1065"
+  },
+  {
+    "_id": "4",
+    "name": "DOCCURE ",
+    "description": "DOCCURE is a robust and user-friendly healthcare management system designed to streamline the user experience for both healthcare professionals and patients. This system leverages Firebase Authentication for secure login and user profile management, ensuring data integrity and confidentiality.",
+    "tools": ["Javascript", "React", "Context API", "Tailwind", "Firebase"],
+    "img": "https://i.ibb.co/DM57kYB/Untitled-design-4-removebg-preview.png",
+    "code": "https://github.com/satya-ranjon/doccure",
+    "live": "https://doccure-38b2f.web.app/",
+    "bgColor": "#8fe3fb",
+    "textColor": "#000000",
+    "nameText": "#000000"
   }
 ]
