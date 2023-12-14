@@ -16,7 +16,7 @@ const Github = () => {
           blockMargin={5}
           color="#c084f5"
           fontSize={width > 500 ? 18 : 10}
-          colorScheme="light"
+          // colorScheme="light"
         />
       </div>
     </div>
