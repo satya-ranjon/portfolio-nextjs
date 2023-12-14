@@ -1,5 +1,5 @@
 "use client";
-import React, { FormEvent } from "react";
+import { FormEvent } from "react";
 import { LuSend } from "react-icons/lu";
 
 const Contact: React.FC = () => {

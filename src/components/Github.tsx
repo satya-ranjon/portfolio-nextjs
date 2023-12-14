@@ -1,6 +1,5 @@
 "use client";
 import useDisplay from "@/hooks/useDisplay";
-import React from "react";
 import GitHubCalendar from "react-github-calendar";
 
 const Github: React.FC = () => {

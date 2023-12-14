@@ -2,7 +2,6 @@
 "use client";
 
 import Image from "next/image";
-import React from "react";
 import avatarShapes1 from "@/assets/cornerstone-patterns-left.svg";
 import avatarShapes2 from "@/assets/cornerstone-patterns-right.svg";
 import useDisplay from "@/hooks/useDisplay";
