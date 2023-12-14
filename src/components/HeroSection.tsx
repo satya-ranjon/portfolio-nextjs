@@ -1,14 +1,8 @@
-"use client";
-
-import avatar from "@/assets/avatar.png";
 import avatar1 from "@/assets/avatar1.jpeg";
 import avatarShapes from "@/assets/avatar-shapes.svg";
-import avatarShapes1 from "@/assets/cornerstone-patterns-left.svg";
 import avatarShapes2 from "@/assets/cornerstone-patterns-right.svg";
 import Image from "next/image";
 import useDisplay from "@/hooks/useDisplay";
-import { useEffect, useRef, useState } from "react";
-import { animateScroll, Events, scrollSpy } from "react-scroll";
 import { GrDownload } from "react-icons/gr";
 
 const HeroSection = () => {

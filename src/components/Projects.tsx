@@ -1,10 +1,7 @@
-"use client";
-
 import React from "react";
 import { TiPlus } from "react-icons/ti";
 import { VscGithubInverted } from "react-icons/vsc";
 import { BiLinkExternal } from "react-icons/bi";
-import DailyImag from "@/assets/daily-routin.png";
 import Image from "next/image";
 import projects from "@/data/project.json";
 
