@@ -4,10 +4,10 @@ import useDisplay from "@/hooks/useDisplay";
 import { GoGitBranch } from "react-icons/go";
 import { FaStar } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
-import { useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-scroll";
 
-const Navbar = () => {
+const Navbar: React.FC = () => {
   const [open, setOpen] = useState<boolean>(false);
   const [width, scrollY] = useDisplay();
   const logo = scrollY > 120 ? "S" : "Satya Ranjon";
