@@ -2,7 +2,7 @@ import HeroSection from "@/components/HeroSection";
 import DesignEngineering from "@/components/DesignEngineering";
 import Navbar from "@/components/Navbar";
 import SectionContainer from "@/components/SectionContainer";
-import { Element } from "react-scroll";
+import { div } from "react-scroll";
 import MySelf from "@/components/MySelf";
 import Projects from "@/components/Projects";
 import Footer from "@/components/Footer";
@@ -13,29 +13,29 @@ export default function Home() {
     <>
       <Navbar />
       <SectionContainer>
-        <Element name="heroSection" className="element">
+        <div id="heroSection">
           <HeroSection />
-        </Element>
+        </div>
       </SectionContainer>
       <SectionContainer>
-        <Element name="design" className="element">
+        <div id="design">
           <DesignEngineering />
-        </Element>
+        </div>
       </SectionContainer>
       <SectionContainer color="bg-colorTwo">
-        <Element name="myself" className="element">
+        <div id="myself">
           <MySelf />
-        </Element>
+        </div>
       </SectionContainer>
       <SectionContainer>
-        <Element name="project" className="element">
+        <div id="project">
           <Projects />
-        </Element>
+        </div>
       </SectionContainer>
       <SectionContainer>
-        <Element name="contact" className="element">
+        <div id="contact">
           <Contact />
-        </Element>
+        </div>
       </SectionContainer>
       <Footer />
     </>
