@@ -2,7 +2,6 @@ import HeroSection from "@/components/HeroSection";
 import DesignEngineering from "@/components/DesignEngineering";
 import Navbar from "@/components/Navbar";
 import SectionContainer from "@/components/SectionContainer";
-import { div } from "react-scroll";
 import MySelf from "@/components/MySelf";
 import Projects from "@/components/Projects";
 import Footer from "@/components/Footer";
