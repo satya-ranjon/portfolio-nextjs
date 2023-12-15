@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Satya Ranjon | Personal Portfolio",
   description: "Satya Ranjon is a frontend developer",
+  icons: { icon: ["./favicon.ico?v=4"] },
 };
 
 export default function RootLayout({
