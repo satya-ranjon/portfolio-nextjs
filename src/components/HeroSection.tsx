@@ -1,5 +1,5 @@
 "use client";
-import avatar1 from "@/assets/avatar1.jpeg";
+import avatar1 from "@/assets/avatar3.jpg";
 import avatarShapes from "@/assets/avatar-shapes.svg";
 import avatarShapes2 from "@/assets/cornerstone-patterns-right.svg";
 import Image from "next/image";
