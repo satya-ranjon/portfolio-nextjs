@@ -9,10 +9,10 @@ const Footer = () => {
           <div className="">Designed and Developed by Satya Ranjon Sharma</div>
           <div className="">Copyright © 2023 SR</div>
           <div className="flex justify-start items-center gap-4 text-xl">
-            <a href="">
+            <a href="https://github.com/satya-ranjon">
               <AiOutlineGithub />
             </a>
-            <a href="">
+            <a href="https://www.linkedin.com/in/satya-ranjon-b75b61220/">
               <FaLinkedin />
             </a>
           </div>

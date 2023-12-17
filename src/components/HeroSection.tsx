@@ -21,7 +21,7 @@ const HeroSection = () => {
             and seeking opportunities to enhance my skills
           </h4>
           <a
-            href="./Satya_Ranjon_Sharma.pdf"
+            href="./Satya_Ranjon_Sharma_Resume.pdf"
             download
             target="_blank"
             className=" px-5 py-2 cursor-pointer bg-colorTwo text-colorThree font-semibold rounded-sm mt-5 z-50 w-fit  flex justify-start gap-2 items-center">
