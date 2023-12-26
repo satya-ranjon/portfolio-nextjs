@@ -9,7 +9,7 @@ import { GrDownload } from "react-icons/gr";
 const HeroSection = () => {
   const [width] = useDisplay();
   const handleDownload = () => {
-    const pdfUrl = "./Satya_Ranjon_Sharma_Resume.pdf";
+    const pdfUrl = "/Satya_Ranjon_Sharma_Resume.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download = "Satya_Ranjon_Sharma_Resume.pdf";
