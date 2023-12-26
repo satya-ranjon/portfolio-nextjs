@@ -1,8 +1,8 @@
 [
   {
     "_id": "1",
-    "name": "Daily Routine",
-    "description": "Daily Routine is a modern project management website. With a sleek and intuitive interface, users can easily create, update, invite, and delete their projects. Daily Routine also features a secure protected route in the front end, ensuring user data remains safe and secure.",
+    "name": "Protask",
+    "description": "Protask is a modern project management website. With a sleek and intuitive interface, users can easily create, update, invite, and delete their projects. Protask also features a secure protected route in the front end, ensuring user data remains safe and secure.",
     "tools": [
       "Javascript",
       "React",
@@ -12,8 +12,8 @@
       "Cloudinary"
     ],
     "img": "https://i.ibb.co/VwMMcRf/1-Untitled-design-removebg-preview-2-transformed.png",
-    "code": "https://github.com/satya-ranjon/project_management_frontend",
-    "live": "https://daily-routine-tool.netlify.app/",
+    "code": "https://github.com/satya-ranjon/protask",
+    "live": "https://protesk.netlify.app/",
     "bgColor": "yellow",
     "textColor": "#000000",
     "nameText": "#000000"
