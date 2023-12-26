@@ -8,7 +8,13 @@ import { GrDownload } from "react-icons/gr";
 
 const HeroSection = () => {
   const [width] = useDisplay();
-
+  const handleDownload = () => {
+    const pdfUrl = "./Satya_Ranjon_Sharma_Resume.pdf";
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "Satya_Ranjon_Sharma_Resume.pdf";
+    link.click();
+  };
   return (
     <>
       <div className=" md:hidden flex flex-col w-full ">
@@ -20,14 +26,12 @@ const HeroSection = () => {
             Passionate learner and developer, always exploring new technologies
             and seeking opportunities to enhance my skills
           </h4>
-          <a
-            href="./Satya_Ranjon_Sharma_Resume.pdf"
-            download
-            target="_blank"
+          <button
+            onClick={handleDownload}
             className=" px-5 py-2 cursor-pointer bg-colorTwo text-colorThree font-semibold rounded-sm mt-5 z-50 w-fit  flex justify-start gap-2 items-center">
             <span className=" text-base">Download CV</span>
             <GrDownload className="text-lg" />
-          </a>
+          </button>
         </div>
         <div className="bg-colorTwo py-10 flex-col flex justify-center items-center relative">
           <Image
