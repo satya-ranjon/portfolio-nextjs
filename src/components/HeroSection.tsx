@@ -5,6 +5,7 @@ import avatarShapes2 from "@/assets/cornerstone-patterns-right.svg";
 import Image from "next/image";
 import useDisplay from "@/hooks/useDisplay";
 import { GrDownload } from "react-icons/gr";
+import Link from "next/link";
 
 const HeroSection = () => {
   const [width] = useDisplay();
@@ -26,12 +27,12 @@ const HeroSection = () => {
             Passionate learner and developer, always exploring new technologies
             and seeking opportunities to enhance my skills
           </h4>
-          <button
-            onClick={handleDownload}
+          <Link
+            href="/Satya_Ranjon_Sharma_Resume.pdf"
             className=" px-5 py-2 cursor-pointer bg-colorTwo text-colorThree font-semibold rounded-sm mt-5 z-50 w-fit  flex justify-start gap-2 items-center">
             <span className=" text-base">Download CV</span>
             <GrDownload className="text-lg" />
-          </button>
+          </Link>
         </div>
         <div className="bg-colorTwo py-10 flex-col flex justify-center items-center relative">
           <Image
