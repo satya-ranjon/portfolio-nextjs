@@ -9,24 +9,19 @@ import Link from "next/link";
 
 const HeroSection = () => {
   const [width] = useDisplay();
-  const handleDownload = () => {
-    const pdfUrl = "/Satya_Ranjon_Sharma_Resume.pdf";
-    const link = document.createElement("a");
-    link.href = pdfUrl;
-    link.download = "Satya_Ranjon_Sharma_Resume.pdf";
-    link.click();
-  };
+
   return (
     <>
+      {/* Mobile  */}
       <div className=" md:hidden flex flex-col w-full ">
         <div className=" bg-colorOne py-20 px-10 space-y-3">
           <h1 className=" text-colorTwo font-bold text-4xl max-w-xs">
             Frontend Developer.
           </h1>
-          <h4 className=" text-white text-base">
+          <p className=" text-white text-base">
             Passionate learner and developer, always exploring new technologies
             and seeking opportunities to enhance my skills
-          </h4>
+          </p>
           <Link
             href="/Satya_Ranjon_Sharma_Resume.pdf"
             className=" px-5 py-2 cursor-pointer bg-colorTwo text-colorThree font-semibold rounded-sm mt-5 z-50 w-fit  flex justify-start gap-2 items-center">
@@ -64,6 +59,7 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
+      {/* Desktop  */}
       <div className="hidden md:block w-full">
         <div className="-z-50 absolute top-0 left-0 right-0 bottom-0 ">
           <div className=" h-full w-full flex flex-col md:flex-row justify-start">
@@ -77,18 +73,16 @@ const HeroSection = () => {
               <h1 className="text-4xl lg:text-5xl xl:text-7xl 2xl:text-8xl max-w-xs lg:max-w-sm xl:max-w-xl font-bold text-colorTwo">
                 Frontend Developer.
               </h1>
-              <h3 className=" text-xs lg:text-base xl:text-lg 2xl:text-xl text-white mt-6 max-w-xs lg:max-w-sm xl:max-w-xl 2xl:max-w-2xl">
+              <p className=" text-xs lg:text-base xl:text-lg 2xl:text-xl text-white mt-6 max-w-xs lg:max-w-sm xl:max-w-xl 2xl:max-w-2xl">
                 Passionate learner and developer, always exploring new
                 technologies and seeking opportunities to enhance my skills
-              </h3>
-              <a
-                href="./Satya_Ranjon_Sharma.pdf"
-                download
-                target="_blank"
+              </p>
+              <Link
+                href="/Satya_Ranjon_Sharma_Resume.pdf"
                 className=" px-5 py-2 cursor-pointer bg-colorTwo text-colorThree font-semibold rounded-sm mt-5 z-50 w-fit  flex justify-start gap-2 items-center">
                 <span className=" text-base">Download CV</span>
                 <GrDownload className="text-lg" />
-              </a>
+              </Link>
             </div>
             <div className=" w-4/12"></div>
           </div>

@@ -35,9 +35,9 @@ const Projects = () => {
                     style={{ color: item.nameText }}>
                     {item.name}
                   </h1>
-                  <h5 className="text-base xl:text-lg  mt-5 ">
+                  <h1 className="text-base xl:text-lg  mt-5 ">
                     {item.description}
-                  </h5>
+                  </h1>
                   <h1
                     className={`font-bold text-lg md:text-xl mt-5 ${item.nameText}`}
                     style={{ color: item.nameText }}>
